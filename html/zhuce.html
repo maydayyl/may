@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>桂林电子科技大学学生智慧校园注册</title>
+    <link rel="stylesheet" href="../css/zhuce.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="header">
+            <h1>桂林电子科技大学北海校区&nbsp;|&nbsp;</h1>
+            <h2>报道系统</h2>
+        </div>
+        <div class="left">
+            <h4>
+                <er>桂电北海校区介绍</er>
+            </h4>
+            <span>&nbsp;&nbsp;&nbsp;桂林电子科技大学是国家工业和信息化部、国家国防科技工业局与广西共建高校、国家“中西部高校基础能力建设工程”入选高校、广西重点建设高校。学校现有金鸡岭校区、六合路校区、花江校区、北海校区等四个校区；其中北海校区位于风光旖旎、景色如画的北海市，是目前北海市唯一一所举办硕士、本科、专科培养层次的公办高校。学校积极响应国家“一带一路”号召，2017年9月起在北海校区招收东盟国际留学生，旨在深化与东盟国家的交流合作、推进东盟应用技术型人才培养。<br>
+
+                <er>&nbsp;&nbsp;&nbsp;今天，北海校区在“正德厚学
+                    笃行致新”校训和“艰苦创业、自强不息”桂电精神的引领下，正朝着建设成为电子信息特色鲜明的国内高水平应用技术型人才培养基地这一目标而努力奋斗。</er>
+            </span>
+        </div>
+        <div class="right" style="height: 260px;">
+
+            <h5>用户注册</h5>
+            <form action="../PHP/zhuce.php" class="form-horizontal">
+                <p>用户名：<input type="text" name="number" id="number" placeholder="学工号"></p>
+                <i style="font-size: 20px;font-style: normal;color: red;">
+
+                </i>
+                <br>
+                <p> 密&nbsp;&nbsp;&nbsp;码：<input type="password" id='pass' name="password" placeholder="首次登录默认密码"></p>
+                <er></er>
+                <i style="font-size: 20px;font-style: normal;color: red;">
+
+                </i>
+                <br>
+                <button class="btn">注册</button>
+            </form>
+
+
+        </div>
+        <div class="footer">
+            <er>桂林电子科技大学北海校区&nbsp;2021&nbsp;GUETyl</er>
+        </div>
+    </div>
+
+
+
+    <script>
+        // 表单验证
+        window.onload = function () {
+            var inp = document.getElementsByTagName('input');
+            var xs = document.getElementsByTagName('i');
+            var btn = document.querySelector('.btn');
+            inp[0].onblur = function () {
+                if (/^[1][0-9]{10}/.test(inp[0].value)) {
+                    xs[0].className="good";
+                    xs[0].innerHTML="学号输入正确";
+                } else {
+                    xs[0].className="no";
+                    xs[0].innerHTML="学号输入错误";
+                    btn.disabled= 'true';
+                    alert('学号输入错误，请刷新重新输入');
+                }
+            }
+
+            inp[1].onblur = function () {
+                if (/^[a-zA-Z0-9]{4,16}$/.test(inp[0].value)) {
+                    xs[0].className="good";
+                    xs[0].innerHTML="密码输入正确";
+                    
+                } else {
+                    xs[0].className="no";
+                    xs[0].innerHTML="密码输入错误";
+                    btn.disabled= 'true';
+                    alert('密码输入错误，请刷新重新输入');
+                }
+            }
+
+        }
+    </script>
+</body>
+
+</html>
+<script src="../js/ajax.js"></script>

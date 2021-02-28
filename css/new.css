@@ -1,0 +1,130 @@
+/*  ----------------------公共样式 ----------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+}
+a {
+    text-decoration: none ;
+}
+ul,li {
+    list-style: none;
+}
+
+
+
+
+                    /*校区新闻列表页面结构样式*/
+
+
+
+
+
+/*  ----------------------new_left----------------------*/
+#new_left {
+    height: 1004px;
+}
+.new_left{
+    width: 1230px;
+    height: 1004px;
+    margin-left: 170px;
+    position: relative;
+}
+.new_left .ne_left {
+    width: 220px;
+    height: 244px;
+    background: cornflowerblue;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    box-shadow: 1px 2px 7px gray;
+}
+.new_left h5 {
+    width: 220px;
+    height: 48px;
+   line-height: 48px;
+   background: #2764b3;
+   color: white;
+   font-size: 23px;
+   font-weight: 100;
+}
+.new_left p {
+    width: 220px;
+    height: 48px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: left;
+    line-height: 48px; 
+}
+.new_left p a {
+    margin-left: 15px;
+    color:black;
+    font-size: 15px;
+}
+.new_left p:hover a {
+    color: blue;
+}
+.new_left h3 {
+    position: absolute;
+    top: 320px;
+    left: 5px;
+    width: 220px;
+    height: 50px;
+    background: #2764b3;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
+.new_left .nel {
+    position: absolute;
+    top: 35px;
+    left: 280px;
+}
+.new_left .nel h2 {
+    color: #5175b8;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+.new_left .nel h6 {
+    width: 200px;
+    position: absolute;
+    top: 12px;
+    left: 740px;
+    font-size: 12px;
+    color: #222222;
+    font-weight: 100;
+}
+.nel_left {
+    width: 880px;
+    height: 158px;
+    position: absolute;
+    top: 98px;
+    left: 296px;
+}
+.nel_left li{
+font-size: 13px;
+color: gray;
+}
+.nel_left_1 {
+    color: black;
+    font-size: 20px; 
+}
+.nel_left a:hover {
+    color: #5175b8;
+}
+.nel_left_5 {
+    color: black;
+    font-size: 15px;
+    line-height: 15px;
+}
+.nel_day {
+    margin-bottom: 10px;
+}
+.ull {
+    margin-bottom: 5px;
+    border-bottom: 1px dashed gray;
+}

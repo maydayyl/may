@@ -1,0 +1,190 @@
+/*  ----------------------公共样式 ----------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+
+
+                    /*登录面结构样式*/
+
+
+
+
+
+/*  ----------------------main ----------------------*/
+#main {
+    height: 100%;
+    background-image: url(../images/6.jpg);
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 192px;
+}
+
+.header>h1 {
+    float: left;
+    line-height: 192px;
+    margin-left: 158px;
+    font-size: 35px;
+    font-weight: 100;
+    color: azure;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2)
+}
+
+.header>h2 {
+    font-size: 28px;
+    line-height: 192px;
+    font-size: 28px;
+    font-weight: 100;
+    color: #bdeef4;
+}
+
+/*  ----------------------left ----------------------*/
+.left {
+    width: 660px;
+    height: 158px;
+    border: 2px solid #2dc8dc;
+    border-radius: 10px;
+    margin-left: 158px;
+    background:#7ddde9 ;
+    float: left;
+}
+
+h4 {
+    width: 660px;
+    height: 44px;
+    background: #185dab;
+    border-radius: 5px;
+    line-height: 44px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.left h4 er {
+    margin-left: 18px;
+}
+
+.left p {
+    margin-left: 18px;
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+    text-shadow: 0 1px 1px gray;
+    font-weight: 100;
+}
+.left p er {
+    color: #185dab;
+    font-weight: 100;
+    font-size: 18px;
+}
+/*  ----------------------right ----------------------*/
+.right{
+    width: 388px;
+    height: 207px;
+    background: #177783;
+    float: right;
+    margin-right: 108px;
+    position: relative;
+}
+.right h5 {
+    font-size: 28px;
+    color: honeydew;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* .right #number {
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.right .no{
+    margin-left: 20px;
+    color: azure;
+    font-size: 18px;
+}
+.right #password {
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+}
+.bttn {
+    float: right;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+#btn{
+    width: 150px;
+    height: 35px;
+    background: #185dab;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #0e3a6b;
+    border-radius: 5px;
+} */
+form {
+    margin-left: 18px;
+}
+form p {
+    color: white;
+}
+input {
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+.right .btn {
+    width: 100px;
+    height: 25px;
+ float: right;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+}
+/*  ----------------------footer ----------------------*/
+.footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 50px;
+    font-size: 12px;
+    color: gray;
+}
+.footer p {
+    margin-bottom: 30px;
+}
